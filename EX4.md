@@ -32,10 +32,13 @@ create table employee8(Emp_id NUMBER primary key ,Ename varchar (100) , Dept var
 ```
 
 ### Call Procedure :
+```
 1  begin
 2  insert_emp_data;
 3  end;
-4  /
+4/
+```
+
 ### Display Table:
 1  select * from employee1;
 
