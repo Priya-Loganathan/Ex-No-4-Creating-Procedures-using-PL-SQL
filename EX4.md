@@ -15,6 +15,7 @@ To create a procedure using PL/SQL.
 ### Create Table :
 create table employee8(Emp_id NUMBER primary key ,Ename varchar (100) , Dept varchar(20) , Salary NUMBER);
 ### Create Procedure :
+```
 1  create or replace procedure insert_emp_data as
 2  begin
 3  insert into employee8(Emp_id,Ename,Dept,Salary)
@@ -28,6 +29,8 @@ create table employee8(Emp_id NUMBER primary key ,Ename varchar (100) , Dept var
 11  commit;
 12  end;
 13  /
+```
+
 ### Call Procedure :
 1  begin
 2  insert_emp_data;
